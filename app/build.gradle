@@ -1,0 +1,47 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.wallpaper.wallpaper' // مساحة الاسم للتطبيق
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.wallpaper.wallpaper" // معرّف التطبيق
+        minSdk 23
+        targetSdk 33
+        versionCode 1
+        versionName "1.0" // رقم إصدار التطبيق
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1' // مكتبة دعم التطبيق
+    implementation 'com.google.android.material:material:1.9.0' // مكتبة مواد التصميم من Google
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4' // مكتبة تخطيط القيود لتصميم واجهة المستخدم
+    testImplementation 'junit:junit:4.13.2' // مكتبة اختبار وحدة الكود JUnit
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5' // مكتبة اختبار Android JUnit
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1' // مكتبة اختبار واجهة المستخدم Espresso
+
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0' // مكتبة Retrofit لإجراء مكالمات RESTful
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0' // مكتبة تحويل بيانات JSON باستخدام Gson مع Retrofit
+
+    implementation 'com.github.bumptech.glide:glide:4.12.0' // مكتبة لتحميل الصور بسلاسة وفعالية
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0' // المكتبة المساعدة لـ Glide لتوليد كود المعالجة
+
+    implementation 'com.applovin:applovin-sdk:11.11.1' // مكتبة إعلانات الـ AppLovin SDK
+}

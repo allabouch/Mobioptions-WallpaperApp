@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuideActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to use it"
+            android:textColor="#fff"
+            android:textSize="20dp">
+        </TextView>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_below="@+id/toolbar"
+        android:onClick="next"
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/button_shape"
+        android:text="Button 1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:onClick="next"
+            android:backgroundTint="#111111"
+            android:layout_height="90dp"
+            android:background="@drawable/wallpaper_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:onClick="next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Wallpaper"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/nativee"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_below="@id/button1"
+        android:layout_height="250dp"
+        android:background="#02111111">
+
+        <FrameLayout
+            android:id="@+id/nativeAdContainer"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:onClick="how"
+        android:id="@+id/button2"
+        android:layout_below="@+id/nativee"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/button_shape"
+        android:text="Button 1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:onClick="how"
+            android:layout_width="90dp"
+            android:backgroundTint="#111111"
+            android:layout_height="90dp"
+            android:background="@drawable/how"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:onClick="how"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="How To use it"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

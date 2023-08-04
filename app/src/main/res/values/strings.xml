@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- اسم التطبيق -->
+    <string name="app_name">Wallpaper</string>
+
+    <!-- مُعرّف الإعلان الطبيعي -->
+    <string name="native_ad_unit_id">742ac964129b879a</string>
+
+    <!-- مُعرّف الإعلان الفاصل -->
+    <string name="interstitial_ad_unit_id">d06f1f3a36e60c42</string>
+
+    <!-- رابط القاعدة الأساسية -->
+    <string name="base_url">https://your-server.com/</string>
+
+    <!-- مُفتاح تطبيق AppLovin SDK KEY -->
+    <string name="applovin_sdk_key">q3p2VPTpJ_0sxXuMK76TaewnnTTgO7TupZooFAvmVQ6E7M7OEURF0REVyGW0WeI2HKcSIkJ6M8kcSHWQhplQqk</string>
+
+    <!--Advices "Text"-->
+    <string name="card_text_button1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu lectus sed nulla vestibulum ultricies. Maecenas varius tristique velit, nec congue ipsum interdum eu. Vivamus venenatis felis sit amet est lobortis, sit amet blandit neque hendrerit. In non luctus nulla. Sed a risus lectus. Suspendisse bibendum eleifend ex, ac volutpat est faucibus eu. Nunc vel bibendum quam, ac laoreet nisi.</string>
+    <string name="card_text_button2">Phasellus fringilla, velit eget tincidunt placerat, elit nisi euismod libero, eget scelerisque elit nisi non dolor. Sed fermentum tortor eget metus pellentesque, eu luctus odio posuere. Sed a purus nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras eget nibh non massa sodales tempus. Nulla tincidunt nisi eu nisi posuere, quis aliquam odio gravida. Nunc volutpat velit a massa egestas, eu vestibulum magna efficitur.</string>
+    <string name="card_text_button3">Duis nec blandit mauris. Suspendisse potenti. Sed nec lacinia neque. Nulla non orci dui. Integer at fringilla odio. Suspendisse vitae tincidunt ipsum, at cursus metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam accumsan facilisis dictum. Suspendisse potenti. Suspendisse potenti.</string>
+    <string name="card_text_button4">Etiam eget tincidunt odio, quis finibus nulla. Nam faucibus eros id odio sollicitudin, non tincidunt nibh pharetra. Vivamus bibendum, lectus eu pellentesque tincidunt, ipsum massa euismod enim, et facilisis tortor odio vitae enim. Nam vehicula euismod ullamcorper. Pellentesque convallis est sed ligula suscipit, a ultrices felis auctor. Integer tristique eros nec erat dignissim, id facilisis ex cursus.</string>
+    <string name="card_text_button5">Quisque in volutpat elit. Cras varius lectus eget metus bibendum hendrerit. Suspendisse euismod libero non elit auctor, ac tincidunt sem luctus. Praesent egestas sagittis eros, a rhoncus odio scelerisque et. Nullam semper dui et mi tristique, vel posuere dolor viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam vel tellus ut odio efficitur varius. Nunc bibendum, justo vitae consequat facilisis, justo arcu malesuada erat, a accumsan eros odio at nisi.</string>
+    <string name="card_text_button6">Proin et nisl ac velit sollicitudin tempor vel vel purus. Sed eget lectus a ex sagittis malesuada. Fusce vestibulum risus at mi aliquet, non malesuada enim lacinia. Cras bibendum massa in erat vestibulum, in fringilla nisl euismod. Nullam id euismod libero, ut congue elit. Vestibulum at laoreet nunc. Donec bibendum nulla sit amet turpis vehicula, ut lacinia ex dignissim. Quisque sodales odio eu erat laoreet rhoncus. Aenean eleifend lacus id erat feugiat, vel venenatis ex dignissim. Aliquam euismod tristique ipsum sit amet consequat. Mauris eget vehicula lorem. Nullam mattis erat eu consectetur congue. Etiam et iaculis nisi. Cras sed maximus orci. Sed varius elit nec diam ultricies, vel hendrerit nisi convallis.</string>
+
+</resources>

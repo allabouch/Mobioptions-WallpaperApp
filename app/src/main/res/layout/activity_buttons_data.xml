@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Buttons_Data">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Advices"
+            android:textColor="#fff"
+            android:textSize="20dp">
+        </TextView>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <Button
+            android:id="@+id/button1"
+            android:background="@drawable/tip1"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:text="Advice 1" />
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/button2"
+            android:background="@drawable/tip2"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:text="Advice 2" />
+
+        <FrameLayout
+            android:id="@+id/nativeAdContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"/>
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/button3"
+            android:background="@drawable/tip3"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:text="Advice 3" />
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/button4"
+            android:background="@drawable/tip4"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:text="Advice 4" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/button5"
+            android:background="@drawable/tip5"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:text="Advice 5" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/button6"
+            android:background="@drawable/tip6"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:text="Advice 6" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
