@@ -13,7 +13,6 @@ A heartfelt message from me to you, my dear friend: Don't think of me as an expe
 
 ## About Me 🔴🔴🔴 ##
 
-
 ## Getting Started
 
 Here's how you can get started with the project:
